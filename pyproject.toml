@@ -1,0 +1,14 @@
+[project]
+name = "pylo"
+version = "0.1.0"
+description = "PyLO is a fast, zero-dependency terminal viewer (TUI) for JSON, CSV, Excel, Markdown, RST, and plain text."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.5",
+]
